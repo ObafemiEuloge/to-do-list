@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: maroon;
+    
+}
+
+main{
+    margin-inline: 20%;
+    text-align: center;
+}
+
+.list {
+    width: 100%;
+    padding: 0.5rem;
+    font-style: italic;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border: solid 1px rgb(119, 119, 119);
+    background-color: aliceblue;
+}
+
+ul li span {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul li button{
+    display: inline ;
+    border-radius: 50%;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    padding: 1rem;
+    box-shadow: 1px 1px 3px black;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+button{
+    background-color: aliceblue;
+    border: solid 1px aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    color: maroon;
+    border-color: maroon;
+}
